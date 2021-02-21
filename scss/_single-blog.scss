@@ -1,0 +1,44 @@
+@import "color";
+@import "font";
+
+.single-blog {
+    a {
+        color: black;
+    }
+    .all-posts {
+        margin-bottom: 20px;
+        a {
+            color: $secondary-color;
+            .left-triangle {
+                font-size: 0.7rem;
+            }
+        }
+    }
+    .container {
+        margin-top: 100px;
+        .title {
+            h2 {
+                color: black;
+            }
+        }
+        .single-blog-content {
+            .title {
+                h2 {
+                    color: $secondary-color;
+                    text-align: left;
+                    font-family: $main-font;
+                    font-weight: 400;
+                }
+            }
+            .x-el-img {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+            }
+            .comment-form {
+                .comment-respond {
+                }
+            }
+        }
+    }
+}

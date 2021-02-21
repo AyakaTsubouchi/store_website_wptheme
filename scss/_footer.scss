@@ -1,0 +1,94 @@
+@import 'color';
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    
+}
+.popup-button{
+    
+.message-button{
+    background-color: $accent-color;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 2px 1px 5px #888887;
+    i{
+        padding: 30px;
+    font-size: 30px;
+    }
+    
+}
+.message-button:hover{
+    cursor: pointer;
+}
+.message-button{
+    background-color: $accent-color;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 2px 1px 5px #888887;
+    i{
+        padding: 30px;
+    font-size: 30px;
+    }
+    @media (max-width: 991px) {
+        i{
+            padding: 3vw;
+        font-size:  3vw;
+        }
+    }
+    @media (max-width: 540px) {
+        i{
+            padding: 3vw;
+        font-size:  3vw;
+        }
+    }
+    
+    
+}
+.message-button:hover{
+    cursor: pointer;
+}
+.close-button{
+    background-color: $accent-color;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 2px 1px 5px #888887;
+    i{
+        padding: 30px;
+    font-size: 30px;
+    }
+    
+}
+.close-button:hover{
+    cursor: pointer;
+}
+.close-button{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 2px 1px 5px #888887;
+    display: none;
+    i{
+        padding: 30px;
+    font-size: 30px;
+    color: white;
+    }
+    
+}
+.close-button:hover{
+    cursor: pointer;
+}
+
+
+
+}

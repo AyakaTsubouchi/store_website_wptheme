@@ -1,0 +1,11 @@
+@import 'color';
+@import 'font';
+
+.message-modal{
+    .custom_btn{
+        background-color: $accent-color;
+        padding: 10px 5px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+}
