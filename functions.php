@@ -165,12 +165,12 @@ function blog_post_type()
 {
 
   $blog_labels = array(
-    'name' => __('Blogs', 'store_theme'),
-    'singular_name' => __('Blog', 'store_theme'),
-    'add_new' => __('Add new blog', 'store_theme'),
-    'add_new_item' => __('Add new blog', 'store_theme'),
-    'featured_image' => __('blog post image', 'store_theme'),
-    'set_featured_image' => __('Set blog image', 'store_theme'),
+    'name' => __('Blogs', 'bakery_site'),
+    'singular_name' => __('Blog', 'bakery_site'),
+    'add_new' => __('Add new blog', 'bakery_site'),
+    'add_new_item' => __('Add new blog', 'bakery_site'),
+    'featured_image' => __('blog post image', 'bakery_site'),
+    'set_featured_image' => __('Set blog image', 'bakery_site'),
 
   );
 
@@ -226,12 +226,12 @@ function menu_post_type()
 {
 
   $menu_labels = array(
-    'name' => __('Menu', 'store_theme'),
-    'singular_name' => __('Menu', 'store_theme'),
-    'add_new' => __('Add new Menu', 'store_theme'),
-    'add_new_item' => __('Add new Menu', 'store_theme'),
-    'featured_image' => __('Menu post image', 'store_theme'),
-    'set_featured_image' => __('Set Menu image', 'store_theme'),
+    'name' => __('Menu', 'bakery_site'),
+    'singular_name' => __('Menu', 'bakery_site'),
+    'add_new' => __('Add new Menu', 'bakery_site'),
+    'add_new_item' => __('Add new Menu', 'bakery_site'),
+    'featured_image' => __('Menu post image', 'bakery_site'),
+    'set_featured_image' => __('Set Menu image', 'bakery_site'),
 
   );
 
@@ -264,12 +264,12 @@ function banner_post_type()
 {
 
   $banner_labels = array(
-    'name' => __('banner', 'store_theme'),
-    'singular_name' => __('banner', 'store_theme'),
-    'add_new' => __('Add new banner', 'store_theme'),
-    'add_new_item' => __('Add new banner', 'store_theme'),
-    'featured_image' => __('banner post image', 'store_theme'),
-    'set_featured_image' => __('Set banner image', 'store_theme'),
+    'name' => __('banner', 'bakery_site'),
+    'singular_name' => __('banner', 'bakery_site'),
+    'add_new' => __('Add new banner', 'bakery_site'),
+    'add_new_item' => __('Add new banner', 'bakery_site'),
+    'featured_image' => __('banner post image', 'bakery_site'),
+    'set_featured_image' => __('Set banner image', 'bakery_site'),
 
   );
 
@@ -301,12 +301,12 @@ function hero_post_type()
 {
 
   $hero_labels = array(
-    'name' => __('hero', 'store_theme'),
-    'singular_name' => __('hero', 'store_theme'),
-    'add_new' => __('Add new hero', 'store_theme'),
-    'add_new_item' => __('Add new hero', 'store_theme'),
-    'featured_image' => __('hero post image', 'store_theme'),
-    'set_featured_image' => __('Set hero image', 'store_theme'),
+    'name' => __('hero', 'bakery_site'),
+    'singular_name' => __('hero', 'bakery_site'),
+    'add_new' => __('Add new hero', 'bakery_site'),
+    'add_new_item' => __('Add new hero', 'bakery_site'),
+    'featured_image' => __('hero post image', 'bakery_site'),
+    'set_featured_image' => __('Set hero image', 'bakery_site'),
 
   );
 
@@ -339,12 +339,12 @@ function feature_post_type()
 {
 
   $feature_labels = array(
-    'name' => __('feature', 'store_theme'),
-    'singular_name' => __('feature', 'store_theme'),
-    'add_new' => __('Add new feature', 'store_theme'),
-    'add_new_item' => __('Add new feature', 'store_theme'),
-    'featured_image' => __('feature post image', 'store_theme'),
-    'set_featured_image' => __('Set feature image', 'store_theme'),
+    'name' => __('feature', 'bakery_site'),
+    'singular_name' => __('feature', 'bakery_site'),
+    'add_new' => __('Add new feature', 'bakery_site'),
+    'add_new_item' => __('Add new feature', 'bakery_site'),
+    'featured_image' => __('feature post image', 'bakery_site'),
+    'set_featured_image' => __('Set feature image', 'bakery_site'),
 
   );
 
@@ -378,12 +378,12 @@ function sectionTitle_post_type()
 {
 
   $sectionTitle_labels = array(
-    'name' => __('sectionTitle', 'store_theme'),
-    'singular_name' => __('sectionTitle', 'store_theme'),
-    'add_new' => __('Add new sectionTitle', 'store_theme'),
-    'add_new_item' => __('Add new sectionTitle', 'store_theme'),
-    'featured_image' => __('sectionTitle post image', 'store_theme'),
-    'set_featured_image' => __('Set sectionTitle image', 'store_theme'),
+    'name' => __('sectionTitle', 'bakery_site'),
+    'singular_name' => __('sectionTitle', 'bakery_site'),
+    'add_new' => __('Add new sectionTitle', 'bakery_site'),
+    'add_new_item' => __('Add new sectionTitle', 'bakery_site'),
+    'featured_image' => __('sectionTitle post image', 'bakery_site'),
+    'set_featured_image' => __('Set sectionTitle image', 'bakery_site'),
 
   );
 
@@ -415,12 +415,12 @@ function businessInfo_post_type()
 {
 
   $businessInfo_labels = array(
-    'name' => __('businessInfo', 'store_theme'),
-    'singular_name' => __('Business Info', 'store_theme'),
-    'add_new' => __('Add new business Info', 'store_theme'),
-    'add_new_item' => __('Add new business info', 'store_theme'),
-    'featured_image' => __('Business info post image', 'store_theme'),
-    'set_featured_image' => __('Set business info image', 'store_theme'),
+    'name' => __('businessInfo', 'bakery_site'),
+    'singular_name' => __('Business Info', 'bakery_site'),
+    'add_new' => __('Add new business Info', 'bakery_site'),
+    'add_new_item' => __('Add new business info', 'bakery_site'),
+    'featured_image' => __('Business info post image', 'bakery_site'),
+    'set_featured_image' => __('Set business info image', 'bakery_site'),
 
   );
 
@@ -452,12 +452,12 @@ function customButton_post_type()
 {
 
   $customButton_labels = array(
-    'name' => __('Custom Button', 'store_theme'),
-    'singular_name' => __('Custom Button', 'store_theme'),
-    'add_new' => __('Add new Custom Button', 'store_theme'),
-    'add_new_item' => __('Add new Custom Button', 'store_theme'),
-    'featured_image' => __('Custom Button post image', 'store_theme'),
-    'set_featured_image' => __('Set Custom Button image', 'store_theme'),
+    'name' => __('Custom Button', 'bakery_site'),
+    'singular_name' => __('Custom Button', 'bakery_site'),
+    'add_new' => __('Add new Custom Button', 'bakery_site'),
+    'add_new_item' => __('Add new Custom Button', 'bakery_site'),
+    'featured_image' => __('Custom Button post image', 'bakery_site'),
+    'set_featured_image' => __('Set Custom Button image', 'bakery_site'),
 
   );
 
@@ -489,12 +489,12 @@ function gallery_post_type()
 {
 
   $gallery_labels = array(
-    'name' => __('gallery', 'store_theme'),
-    'singular_name' => __('Gallery Info', 'store_theme'),
-    'add_new' => __('Add new Gallery Info', 'store_theme'),
-    'add_new_item' => __('Add new Gallery info', 'store_theme'),
-    'featured_image' => __('Gallery info post image', 'store_theme'),
-    'set_featured_image' => __('Set Gallery info image', 'store_theme'),
+    'name' => __('gallery', 'bakery_site'),
+    'singular_name' => __('Gallery Info', 'bakery_site'),
+    'add_new' => __('Add new Gallery Info', 'bakery_site'),
+    'add_new_item' => __('Add new Gallery info', 'bakery_site'),
+    'featured_image' => __('Gallery info post image', 'bakery_site'),
+    'set_featured_image' => __('Set Gallery info image', 'bakery_site'),
 
   );
 
@@ -529,12 +529,12 @@ function header_post_type()
 {
 
   $header_labels = array(
-    'name' => __('header', 'store_theme'),
-    'singular_name' => __('header', 'store_theme'),
-    'add_new' => __('Add new header', 'store_theme'),
-    'add_new_item' => __('Add new header', 'store_theme'),
-    'featured_image' => __('header post image', 'store_theme'),
-    'set_featured_image' => __('Set header image', 'store_theme'),
+    'name' => __('header', 'bakery_site'),
+    'singular_name' => __('header', 'bakery_site'),
+    'add_new' => __('Add new header', 'bakery_site'),
+    'add_new_item' => __('Add new header', 'bakery_site'),
+    'featured_image' => __('header post image', 'bakery_site'),
+    'set_featured_image' => __('Set header image', 'bakery_site'),
 
   );
 

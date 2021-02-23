@@ -1,5 +1,5 @@
 {
-  "name": "storeTheme",
+  "name": "kungfuhotpot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,13 +29,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AyakaTsubouchi/storeTheme.git"
+    "url": "git+https://github.com/AyakaTsubouchi/kungfuhotpot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AyakaTsubouchi/storeTheme/issues"
+    "url": "https://github.com/AyakaTsubouchi/kungfuhotpot/issues"
   },
-  "homepage": "https://github.com/AyakaTsubouchi/storeTheme#readme"
+  "homepage": "https://github.com/AyakaTsubouchi/kungfuhotpot#readme"
 }

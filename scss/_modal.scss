@@ -1,0 +1,67 @@
+
+/*--------------------------------------
+Modal
+-------------------------------------*/
+
+.gallery-modal{
+    color: white;
+    .modal-dialog{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-70%,-50%)!important;
+    }
+    .modal-content{
+     background-color: rgb(48, 29, 0);
+     width: 700px;
+    }
+    .modal-body{
+      text-align:center;
+      .carousel-inner{
+        margin: 0 auto;
+      }
+      .carousel-item{
+          height: auto;
+      }
+      img{
+        
+        width: 100%;
+        object-fit: cover;
+      }
+      p{
+        margin-top: 10px;
+      }
+    }
+      .right{
+        position: absolute;
+      right: 5px;
+      top: 50%;
+      }
+      .left{
+        position: absolute;
+      left: 5px;
+      top: 50%;
+      }
+      .right:hover,
+      .left:hover{
+        cursor: pointer;
+      }
+    
+    .modal-header{
+      
+      border-bottom:none;
+    }
+    .modal-footer{
+      border-top:none
+    }
+    button{
+      span{
+        
+        color: white;
+      }
+    }
+    
+  }
+  /*--------------------------------------
+  End of Modal
+  -------------------------------------*/

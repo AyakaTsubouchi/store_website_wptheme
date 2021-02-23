@@ -1,3 +1,22 @@
+// smooth screen 
+$(document).ready(function(){
+  $(".our-features a").on('click', function(event) {
+
+    if (this.hash !== "") {
+
+      event.preventDefault();
+
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+
 /*--------------------------------------
 Header
 -----------------------------------------------------*/
@@ -185,7 +204,7 @@ $(".get_button_more_info").on("click", function() {
         for (let i = 0; i < myJSON.length; i++) {
           $("#carouselExample .carousel-inner").append(`
     <div class='carousel-item carousel_one closed-reset'>
-      <img src=${myJSON[i].fimg_url} alt="nice dishes">
+      <img src=${myJSON[i].fimg_url} alt="menu">
       <p>${myJSON[i].title.rendered}</p>
    
     </div>

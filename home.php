@@ -27,7 +27,7 @@ Template name: Home
     <?php include('inc/home-banner2.php'); ?>
     <?php include('inc/home-banner3.php'); ?>
 
-    <div class="contact">
+    <div class="contact" id="contact">
 
         <div class="row">
             <div class="col-lg-6 col-md-12">

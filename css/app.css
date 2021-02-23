@@ -11596,6 +11596,7 @@ body {
 .image-gallery .flex-box {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .image-gallery .flex-box .img-wrapper:hover,
@@ -11715,4 +11716,79 @@ body {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
+/*--------------------------------------
+Modal
+-------------------------------------*/
+
+.gallery-modal {
+  color: white;
+}
+
+.gallery-modal .modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%) !important;
+}
+
+.gallery-modal .modal-content {
+  background-color: #301d00;
+  width: 700px;
+}
+
+.gallery-modal .modal-body {
+  text-align: center;
+}
+
+.gallery-modal .modal-body .carousel-inner {
+  margin: 0 auto;
+}
+
+.gallery-modal .modal-body .carousel-item {
+  height: auto;
+}
+
+.gallery-modal .modal-body img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery-modal .modal-body p {
+  margin-top: 10px;
+}
+
+.gallery-modal .right {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+}
+
+.gallery-modal .left {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+}
+
+.gallery-modal .right:hover,
+.gallery-modal .left:hover {
+  cursor: pointer;
+}
+
+.gallery-modal .modal-header {
+  border-bottom: none;
+}
+
+.gallery-modal .modal-footer {
+  border-top: none;
+}
+
+.gallery-modal button span {
+  color: white;
+}
+
+/*--------------------------------------
+End of Modal
+-------------------------------------*/
 
